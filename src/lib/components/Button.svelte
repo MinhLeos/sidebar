@@ -3,10 +3,10 @@
   export let tooltip = '';
 </script>
 
-<div class="btn transition">
+<button class="btn transition">
   <svg aria-hidden="true" role="img" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d={path}></path></svg>
   <p class="tooltip">{tooltip}</p>
-</div>
+</button>
 <style scoped>
   .btn {
     @apply relative flex items-center justify-center bg-slate-300 w-16 h-16 mt-4 rounded-[128px] text-[#23a559];
