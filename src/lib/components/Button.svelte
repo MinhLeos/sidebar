@@ -27,7 +27,7 @@
   .transition {
       /* -webkit-transition: background-color 0.75s linear, border-radius 0.75s linear;
       transition: background-color 0.75s linear, border-radius 0.75s linear; */
-      -webkit-transition: all 0.5s ease-in-out;
-      transition: all 0.5s ease-in-out;
+      -webkit-transition: all 0.35s cubic-bezier(1, 0, 0, 1);
+      transition: all 0.35s cubic-bezier(1, 0, 0, 1);
   }
 </style>
