@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes discord {
+  0% {
+      border-radius: 16px;
+    }
+  
+    50% {
+      border-radius: 14px;
+    }
+  
+    100% {
+      border-radius: 10px;
+    }
+}
